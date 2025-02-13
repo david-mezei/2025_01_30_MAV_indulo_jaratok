@@ -1,0 +1,30 @@
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 65%;
+    background-color: #2ab44f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+th {
+    background-color: #237539;
+}
+
+#keses {
+    background-color: #ff0022;
+}
+
+.paratlan-sor {
+    background-color: #33d649;
+}
+
+#ora {
+    background-color: #d7ded8;
+    color: #237539
+}
