@@ -1,0 +1,25 @@
+table {
+    width: 65%;
+    background-color: rgb(57, 97, 133);/*háttérszín*/
+    color: rgb(255, 255, 255); /*betűszín*/
+    font-family: 'Arial'; /*betűtípus*/;
+}
+tr:nth-child(even) {
+    background-color: rgb(69, 121, 151);
+  }
+  table {
+    border-collapse: collapse;  border-spacing: 0;
+  }
+
+  table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#keses {
+    background-color: #ff0022;
+}
+#ora {
+    background-color: #ced6ec;
+    color: rgb(69, 121, 151)
+}

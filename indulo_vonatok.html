@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Induló vonatok</title>
+    <link rel="stylesheet" href="style_indulo.css">
 </head>
 <body>
     <table>
         <thead>
+            <tr>
+                <th colspan="2" id="ora">8:43:03</th>
+                <th colspan="2">MÁV induló járatok</th>
+                <th>Arrivals</th>
+                <th><img src="https://juhasz-szabolcs.github.io/2025_01_30_MAV_indulo_jaratok/mav.png" alt="MÁV logo" width="45px"></th>
+            </tr>
             <tr>
                 <th>Várható indulás</th>
                 <th>Várható érkezés</th>
@@ -18,11 +25,11 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="paratlan-sor">
                 <td>8:31</td>
-                <td>8:43</td>
+                <td id="keses">8:43</td>
                 <td>717</td>
-                <td>Budapest-Nyugati</td>
+                <td>Budapest-Nyugati**</td>
                 <td>Kecskemét-Cegléd</td>
                 <td>5</td>
             </tr>
@@ -34,21 +41,29 @@
                 <td>Kistelek-Szatymaz</td>
                 <td>5</td>
             </tr>
-            <tr>
+            <tr class="paratlan-sor">
+                <td>9:30</td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>712</td>
+                <td>Szeged</td>
+                <td>Kistelek-Szatymaz</td>
+                <td>3</td>
             </tr>
             <tr>
+                <td class="paratlan-sor">9:31</td>
                 <td></td>
+                <td>727</td>
+                <td>Budapest-Nyugati**</td>
+                <td>Kecskemét-Cegléd</td>
+                <td>5</td>
+            </tr> 
+            <tr>
+                <td>9:44</td>
                 <td></td>
+                <td>7897</td>
+                <td>Külsőhalas</td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>3</td>
             </tr>
         </tbody>
     </table>
