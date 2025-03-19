@@ -33,10 +33,22 @@ body {
     background-image: url(images/bg.jpg);
 }
 
-.container, #link {
+#link {
     display: flex;
     justify-content: center; /* Vízszintes középre helyezés */
     align-items: center;     /* Függőleges középre helyezés */
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.additional_info {
+    margin-top: 10px;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
 }
 
   

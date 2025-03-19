@@ -29,8 +29,13 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center; /* Vízszintes középre helyezés */
-  align-items: center;     /* Függőleges középre helyezés */
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
-
+.additional_info {
+  margin-top: 10px;
+  width: 65%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
