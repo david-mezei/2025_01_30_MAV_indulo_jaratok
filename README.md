@@ -106,5 +106,5 @@ th {
 
 ### 📸 Screenshot a weboldalról
 
-![Screenshot](images\screenshot.png)
+![Screenshot](https://github.com/david-mezei/2025_01_30_MAV_indulo_jaratok/blob/main/images/screenshot.png)
 
